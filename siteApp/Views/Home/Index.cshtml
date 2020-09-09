@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark container-lg .sticky-custom-top fixed-lg-top menu-flutuante" id="menu">
+    <div class="container">
+        <a class="d-flex d-lg-none navbar-brand expand" href="#page-top"><img src="~/img/logo.png" class="img-fluid"/></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#NAV" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id='NAV'>
+            <ul class="navbar-nav my-2 my-lg-0 mx-auto">
+                <li class="nav-item"><a class="nav-link mx-lg-3" href="#about" style="font-size:18px">O Escritório</a></li>
+                <li class="nav-item menu">
+                    <a class="nav-link mx-lg-3" href="javascript:void(0)" style="font-size:18px">Áreas de atuação  <i class="fas fa-stream"></i></i></a>
+                    <ul class="bg-dark px-3">
+	                  <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Item 1</a></li>
+	                  <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Item 2</a></li>
+	                  <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Item 3</a></li>
+	       		    </ul>
+                </li>
+                <li class="nav-item "><a class="nav-link mx-lg-3" href="#photos" style="font-size:18px">Advogados</a></li>
+                <li class="nav-item"><a class="nav-link mx-lg-3" href="#blog" style="font-size:18px">Blog</a></li>
+                <li class="nav-item"><a class="nav-link mx-lg-3" href="#contact" style="font-size:18px">Contato</a></li>           
+            </ul>
+            <ul class="navbar-nav my-2 my-lg-0 ml-auto">
+                <li class="nav-item pesquisa">
+                    <a class="nav-link mx-lg-3" href="javascript:void(0)"><i class="fas fa-search  align-middle text-center" style="font-size:22px"></i></a>
+                    <ul class="bg-dark p-0">
+                        <input class="form-control bg-dark"/>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div id="page-top" class="h-50 bg-img-custom">
+    <h2 class="text-center text-white font-weight-bold pt-5">Costa</h2>
+    <h3 class="text-center text-white font-weight-bold">Assessoria Jurídica</h3>
+</div>
+<!-- About-->
+<div class="bg-dark">
+    <div class="container" style="padding-bottom:10em">
+        <div class="row justify-content-center">
+            <div class="col-md-6 border" style="height:20em">
+                <h3 class="text-center text-white font-weight-bold mt-5">Conteúdo 1</h3>
+            </div>
+            <div class="col-md-6 border" style="height:20em">
+                <h3 class="text-center text-white font-weight-bold mt-5">Conteúdo 2</h3>
+            </div>
+            <div class="col-md-3 border" style="height:10em">
+                <h3 class="text-center text-white font-weight-bold mt-5">Conteúdo 3</h3>
+            </div>
+            <div class="col-md-3 border" style="height:10em">
+                <h3 class="text-center text-white font-weight-bold mt-5">Conteúdo 4</h3>
+            </div>
+            <div class="col-md-3 border" style="height:10em">
+                <h3 class="text-center text-white font-weight-bold mt-5">Conteúdo 5</h3>
+            </div>
+            <div class="col-md-3 border" style="height:10em">
+                <h3 class="text-center text-white font-weight-bold mt-5">Conteúdo 6</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer-->
+<footer class="bg-light py-5">
+    <div class="container"><div class="small text-center text-muted">© 2019 - @DateTime.Now.Year COSTA ASSESSORIA JURÍDICA</div></div>
+</footer>
