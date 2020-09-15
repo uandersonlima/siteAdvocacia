@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let aGroup = nav.querySelectorAll('li.menu a');
 
   search.addEventListener("click", function () {
-    let searchBox = this.parentNode.querySelector('ul');  
+    let searchBox = this.parentNode.querySelector('ul');
     if (searchBox.classList.contains('show')) {
       searchBox.classList.remove('show');
     }
@@ -15,9 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
   })
 
   aGroup.forEach(element => element.addEventListener("click", function () {
-    let li = this.parentNode,
-      resp = li.classList.contains('show');
-    if (resp) {
+    let li = this.parentNode;
+    if (li.classList.contains('show')) {
       li.classList.remove('show');
     }
     else {

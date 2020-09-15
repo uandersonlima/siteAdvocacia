@@ -20,7 +20,6 @@ C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\siteApp.Tag
 C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\siteApp.RazorCoreGenerate.cache
 C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
@@ -34,3 +33,16 @@ C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\siteApp.pdb
 C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\siteApp.genruntimeconfig.cache
 C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\siteApp.csproj.CopyComplete
 C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\siteApp.csproj.CoreCompileInputs.cache
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_layout1.cshtml.g.cs
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_layout2.cshtml.g.cs
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Costa.cshtml.g.cs
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Lawyers.cshtml.g.cs
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Actuation.cshtml.g.cs
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Covid19.cshtml.g.cs
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Events.cshtml.g.cs
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\News.cshtml.g.cs
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Press.cshtml.g.cs
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Profession.cshtml.g.cs
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Publications.cshtml.g.cs
+C:\Users\LIMA\Desktop\Site Advocacia\siteApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Videos.cshtml.g.cs

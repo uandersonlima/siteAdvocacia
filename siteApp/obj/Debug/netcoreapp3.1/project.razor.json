@@ -14387,7 +14387,7 @@
         }
       }
     ],
-    "CSharpLanguageVersion": 800
+    "CSharpLanguageVersion": 900
   },
   "RootNamespace": "siteApp",
   "Documents": [
@@ -14397,8 +14397,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Home\\Covid19.cshtml",
+      "TargetPath": "Views\\Home\\Covid19.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Home\\Profession.cshtml",
+      "TargetPath": "Views\\Home\\Profession.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14407,8 +14417,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Home\\Lawyers.cshtml",
+      "TargetPath": "Views\\Home\\Lawyers.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Shared\\_layout1.cshtml",
+      "TargetPath": "Views\\Shared\\_layout1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Home\\Costa.cshtml",
+      "TargetPath": "Views\\Home\\Costa.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14417,8 +14442,43 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Home\\Events.cshtml",
+      "TargetPath": "Views\\Home\\Events.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Home\\Actuation.cshtml",
+      "TargetPath": "Views\\Home\\Actuation.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Home\\Contact.cshtml",
+      "TargetPath": "Views\\Home\\Contact.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Home\\Videos.cshtml",
+      "TargetPath": "Views\\Home\\Videos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Home\\Publications.cshtml",
+      "TargetPath": "Views\\Home\\Publications.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Shared\\_layout2.cshtml",
+      "TargetPath": "Views\\Shared\\_layout2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Home\\News.cshtml",
+      "TargetPath": "Views\\Home\\News.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\LIMA\\Desktop\\Site Advocacia\\siteApp\\Views\\Home\\Press.cshtml",
+      "TargetPath": "Views\\Home\\Press.cshtml",
       "FileKind": "mvc"
     }
   ],

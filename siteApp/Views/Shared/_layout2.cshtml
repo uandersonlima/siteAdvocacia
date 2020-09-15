@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>@ViewData["Title"]</title>
+        <link rel="icon" type="image/x-icon" href="~/img/costaicon.png" />
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <link href="~/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark container-lg .sticky-custom-top fixed-lg-top menu-flutuante p-lg-0" id="menu">
+            <a class="d-flex d-lg-none navbar-brand expand"><img src="~/img/logo.png" class="img-fluid"/></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#NAV" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id='NAV'>
+                <ul class="navbar-nav my-2 my-lg-0 mx-auto">
+                    <li class="nav-item  menu">
+                        <a class="nav-link mx-lg-3 " href="javascript:void(0)">O Escritório  <i class="fas fa-stream fa-sm"></i></a>
+                        <ul class="bg-dark px-3">
+                        <li class="nav-item"><a class="nav-link" asp-controller="home" asp-action="costa">Costa Acessoria</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="home" asp-action="timeline">Linha do tempo</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="home" asp-action="recognition">Reconhecimento</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="home" asp-action="socialresponsability">Responsabilidade Sociail</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="home" asp-action="people">Pessoas</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="home" asp-action="addresses">Endereços</a></li>
+                        </ul>
+                    </li>                    
+                    <li class="nav-item  "><a class="nav-link mx-lg-3" asp-controller="home" asp-action="lawyers">Advogados</a></li>
+                    <li class="nav-item  "><a class="nav-link mx-lg-3" asp-controller="home" asp-action="actuation">Atuação</a></li>
+                    <li class="nav-item  menu">
+                        <a class="nav-link mx-lg-3" href="javascript:void(0)">Acontece <i class="fas fa-stream fa-sm"></i></a>
+                        <ul class="bg-dark px-3">
+                        <li class="nav-item"><a class="nav-link" asp-controller="home" asp-action="covid19">Covid-19</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="home" asp-action="publications">Publicações</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="home" asp-action="news">Notícias da firma</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="home" asp-action="press">Imprensa</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="home" asp-action="events">Eventos</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="home" asp-action="videos">Vídeos</a></li>
+                        </ul>
+                    </li>                       
+                    <li class="nav-item "><a class="nav-link mx-lg-3" asp-controller="home" asp-action="profession">Carreira</a></li>
+                    <li class="nav-item "><a class="nav-link mx-lg-3" asp-controller="home" asp-action="contact">Contato</a></li>              
+                </ul>
+                <ul class="navbar-nav my-lg-0 ml-auto">
+                    <li class="nav-item pesquisa ">
+                        <a class="nav-link mx-lg-3" href="javascript:void(0)"><i class="fas fa-search fa-lg align-middle text-center"></i></a>
+                        <ul class="bg-dark p-0">
+                            <input class="form-control bg-dark" placeholder="Buscar"/>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <div class="h-custom bg-dark">
+        <a class="nav-item nav-link" asp-controller="home" asp-action="index">
+            <h2 class="text-center text-white font-weight-bold mt-3">Costa</h2>
+            <h3 class="text-center text-white font-weight-bold">Assessoria Jurídica</h3>
+        </a>
+    </div>
+    <div class="container-fluid bg-light min-vh-100">
+        <div class="row">
+            @RenderBody()
+        </div>
+    </div>
+    <footer class="bg-light py-5">
+    <div class="container"><div class="small text-center text-muted">© 2019 - @DateTime.Now.Year COSTA ASSESSORIA JURÍDICA</div></div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="~/js/scripts.js"></script>
+</body>
+</html>

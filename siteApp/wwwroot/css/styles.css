@@ -7821,8 +7821,8 @@ li.pesquisa a {
 
 li.pesquisa ul {
   position: absolute;
-  top: 49px;
-  right: -31px;
+  top: 100%;
+  right: 0;
   background-color: #fff;
   visibility: hidden;
   -webkit-transition: all 0.25s ease;
@@ -7830,6 +7830,7 @@ li.pesquisa ul {
   -ms-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
+  z-index: 1030;
 }
 li.pesquisa ul input {
   box-shadow: 0 0 0 0;
@@ -7855,9 +7856,9 @@ li.menu a {
 
 li.menu ul {
   position: absolute;
-  top: 50.5px;
+  top: 100%;
   left: 0;
-  right: 0;
+  width: 255px;
   background-color: #fff;
   visibility: hidden;
   -webkit-transition: all 0.25s ease;
@@ -7865,6 +7866,7 @@ li.menu ul {
   -ms-transition: all 0.25s ease;
   -o-transition: all 0.25s ease;
   transition: all 0.25s ease;
+  z-index: 1030;
 }
 
 li.menu.show ul {
@@ -10739,4 +10741,74 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+}
+
+.tam18 {
+  font-size: 18px !important;
+}
+
+div#NAV ul.navbar-nav li {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
+.h-custom {
+  height: 9.2em;
+}
+.t-custom {
+  margin-top: 6em;
+}
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: " ";
+  background: #d4d9df;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: " ";
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid #22c0e8;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+.foto-mold {
+  width: 40px;
+  height: 40px;
+}
+.hr-custom {
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.without-radian-border input,
+.without-radian-border select {
+  border-radius: revert;
+}
+
+.alphabet a{
+  margin: 0.5em;
+}
+.risk {
+  width:40px;
+  border: 2px solid #ccc;
+}
+.bg-custom {
+  background: #EFEDE6 !important;
+  border-bottom:2px solid #ADA882;
 }
